@@ -23,3 +23,4 @@ npm install -g node-gyp
 npm config set node_gyp "node C:\Users\me\AppData\Roaming\npm\node_modules\node-gyp\bin\node-gyp.js" 
 
 这边设置成你的存放路径
+
