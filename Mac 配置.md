@@ -2,7 +2,7 @@
 
 ```
 node
-vscode
+vscode vscode插件： CSS Peek，   Open-In-Browser Prettier  SVG Viewer  TODO Highlight  Themes
 ```
 
 
