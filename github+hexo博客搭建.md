@@ -4,7 +4,7 @@
 
 2- 查看项目settings， 找到GitHub Pages 你的博客地址就在这里
 
-![](/img/github博客.png)
+![](./img/github博客.png)
 
 3- 本地创建项目文件夹(名字自定义），安装hexo
 
