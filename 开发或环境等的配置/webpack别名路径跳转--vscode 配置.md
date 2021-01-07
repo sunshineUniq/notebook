@@ -38,7 +38,7 @@ import ErrorBoundary from 'components/ErrorBoundary/index'
 
 配置：在setting.json 中添加配置
 
-![配置vscode路径引入](/Users/sunshine/Desktop/zm/img/配置vscode路径引入.png)
+![配置vscode路径引入](../img/配置vscode路径引入.png)
 
 ```javascript
     "path-intellisense.mappings": {
