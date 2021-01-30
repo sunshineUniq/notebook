@@ -91,6 +91,22 @@ this.moment('2016-10-30').isBetween('2016-10-30', '2016-12-30', null, '[)'); //t
 this.moment('2016-10-30').isBetween('2016-01-01', '2016-10-30', null, '()'); //false
 this.moment('2016-10-30').isBetween('2016-01-01', '2016-10-30', null, '(]'); //true
 this.moment('2016-10-30').isBetween('2016-10-30', '2016-10-30', null, '[]'); //true
+
+// 获取指定月份的总天数
+moment().daysInMonth() 
+// 获取当前月最后一天
+const endOfMonth = moment(2019-10).endOf("month").format("DD");
+// 获取当前月第一天
+moment(2019-10).startOf('month').format("DD");
+
+// 获取年份
+moment().year()
+
+// 获取月份
+moment().month()   // (0~11, 0: January, 11: December)
+
+// 获取天
+moment().date()
 ```
 
 
