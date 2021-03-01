@@ -49,7 +49,7 @@
 
 ```javascript
     .flexbox{
-      min-width: 20px;
+      min-width: 20px; // width: 0
       flex: 1;
       border: 2px solid yellow;
       display: flex;
