@@ -2,7 +2,7 @@
 
 ## react-transition-group 一个官网提供的动画过度库
 
-
+https://blog.csdn.net/Sophie_U/article/details/80093876
 
 安装该组件库：yarn add react-transition-group
 
