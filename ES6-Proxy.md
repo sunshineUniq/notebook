@@ -320,4 +320,3 @@ const proxy = new Proxy(target, handler);
 proxy.getDate();
 // TypeError: this is not a Date object.
 ```
-

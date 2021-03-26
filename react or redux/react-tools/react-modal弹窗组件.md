@@ -75,3 +75,6 @@ $ yarn add react-modal
 
 ```
 
+990 0.8w
+
+1190 1.2w
