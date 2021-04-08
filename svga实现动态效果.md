@@ -50,5 +50,40 @@ player.setText({
 }, 'ImageKey'); // customize text styles.
 ```
 
+demo
 
+```javascript
+import React from 'react'
+import Modal from 'react-modal'
+import SVGA from 'svgaplayerweb';
+import './index.scss'
+const titleFinishReview = 'https://web-data.zmlearn.com/image/rCpxZzq1JfNxWUKFtwLaG5/title_finishreview%403x.png'
 
+export default function FinishTaskAlert({
+  isOpen
+}) {
+  const renderSvga = () => {
+    const player = new SVGA.Player('#finishZmgReviewSvga')
+    const parser = new SVGA.Parser('#finishZmgReviewSvga')
+    console.log('player', player);
+    console.log('parser', parser);
+    parser.load('https://web-data.zmlearn.com/media/gx1cmZ7acSbbh7HgdiEKH1/finish_zmg_review.svga', function (videoItem) {
+      player.loops = 1; // 设置循环播放次数是1,0是无限播放
+      player.clearsAfterStop = false;
+      player.fillMode = 'Backward';
+      player.setVideoItem(videoItem);
+      player.startAnimation();
+    })
+  }
+
+  return (
+    <Modal className="finish-zmg-review-task-alert" ariaHideApp={false} isOpen={isOpen} onAfterOpen={() => { renderSvga() }}>
+      <img src={titleFinishReview} className="title-review-img" />
+      <div id="finishZmgReviewSvga" className="finish-svga-wrapper"></div>
+      <p className="svga-desc">复习完成了，奖励5个能量果</p>
+    </Modal>
+  )
+}
+```
+
+注意：modal上的svga初始化在onAfterOpen内进行不然 获取不到dom元素
