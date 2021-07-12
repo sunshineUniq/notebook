@@ -55,7 +55,26 @@ TCP 协议： 确保可靠性
   - TCP 协议把数据包送出去后，TCP 一定会确认是否成功送达
   - TCP的标志：SYN（synchronize)和ACK（acknowledgement)
 
+#### URI 和URL
 
+- URI（Uniform Resource Identifier)统一资源标识符（IANA： 统一资源标识符方案）
 
+- URL（Uniform Resource Locator) 统一资源定位符
 
+- URI 用字符串标识某一资源，URL表示该资源的地址，URL 是URI 的子集
+
+- URI 格式： RFC
+
+  ```
+  http://user:pass@www.example.jp:80/dir/index.htm?uid=1#ch1
+  http:// 协议方案名
+  user:pass  登陆信息（认证）可选
+  www.example.jp 服务器地址
+  80: 服务器端口号  可选
+  /dir/index.htm 带层次的文件路径
+  uid=1 查询字符串  可选
+  ch1 片段标识符   可选
+  ```
+
+  
 
