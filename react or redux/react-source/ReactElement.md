@@ -145,14 +145,6 @@ function createElement(type, config, children) {
 
 ```
 
-
-
-
-
-
-
-
-
 ## ReactElement
 
 ```javascript
