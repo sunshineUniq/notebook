@@ -1,3 +1,21 @@
+##### 3- memo
+
+React.memo和PureComponent 的区别和共同点
+
+共同点： 都可以用作性能优化
+
+不同点：1- React.memo 使用范围更广，高阶组件、函数组件、类组件都能使用， PureComponent 只能类组件继承
+
+​				2- React.memo只对props进行浅比较决定是否渲染， PureComponent针对props 和State
+
+React.memo接受两个参数，第一个参数原始组件本身，第二个参数，可以根据一次更新中`props`是否相同决定原始组件是否重新渲染。是一个返回布尔值，`true` 证明组件无须重新渲染，`false`证明组件需要重新渲染，这个和类组件中的`shouldComponentUpdate()`正好相反 。
+
+**React.memo: 第二个参数 返回 `true` 组件不渲染 ， 返回 `false` 组件重新渲染。**
+
+**shouldComponentUpdate: 返回 `true` 组件渲染 ， 返回 `false` 组件不渲染。**
+
+
+
 控制组件在仅此一个`props`数字变量，一定范围渲染。
 
 例子🌰：

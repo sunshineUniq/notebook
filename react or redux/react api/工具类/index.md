@@ -1,0 +1,12 @@
+- createElement
+- cloneElement
+- createContext
+- createFactory
+- createRef
+- isValidElement
+- Children
+  - map
+  - forEach
+  - count
+  - toArray
+  - only
