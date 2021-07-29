@@ -1,0 +1,7 @@
+- render
+- hydrate
+- unstable_batchedUpdates
+- flushSync
+- findDOMNode
+- unmountComponentAtNode
+- createPortal
