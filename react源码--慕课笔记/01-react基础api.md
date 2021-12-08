@@ -177,3 +177,24 @@ const ReactCurrentOwner = {
 
 ```
 
+
+
+10- Children
+
+>`React.Children.map`的一个特性了，那就是对每个节点的`map`返回的如果是数组，那么还会继续展开，这是一个递归的过程。
+
+![](imgs/react-children-map.png)
+
+
+
+11- others
+
+memo 
+
+Fragment 
+
+StrictMode
+
+cloneElement
+
+createFactory
