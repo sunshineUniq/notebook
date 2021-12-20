@@ -11,3 +11,18 @@
 - 参与开源项目的开发
 - GitHub 日更： 可以是算法题
 - Github 博客维护
+
+
+
+技术栈补充：
+
+docker
+
+websocket
+
+node
+
+electron
+
+Xterm
+
