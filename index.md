@@ -26,3 +26,10 @@ electron
 
 Xterm
 
+
+
+Effective C++ / Exceptional C++
+
+Head First设计模式
+
+深入理解计算机系统
